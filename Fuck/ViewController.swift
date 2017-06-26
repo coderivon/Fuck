@@ -11,7 +11,7 @@ import UIKit
 
 
 class ViewController: UIViewController {
-    var activePlayer = 1 //Cross
+    var Player = 1 //Cross
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     
     let winningCombinations = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
@@ -40,17 +40,17 @@ class ViewController: UIViewController {
         
         if (gameState[sender.tag-1] == 0 && gameIsActive == true)
         {
-            gameState[sender.tag-1] = activePlayer
+            gameState[sender.tag-1] = Player
             
-            if (activePlayer == 1)
+            if (Player == 1)
             {
                 sender.setImage(UIImage(named: "Cross.png"), for: UIControlState())
-                activePlayer = 2
+                Player = 2
             }
             else
             {
                 sender.setImage(UIImage(named: "Nought.png"), for: UIControlState())
-                activePlayer = 1
+                Player = 1
             }
         }
         
@@ -109,7 +109,7 @@ class ViewController: UIViewController {
     {
         gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
         gameIsActive = true
-        activePlayer = 1
+        Player = 1
         
         playAgainButton.isHidden = true
         label.isHidden = true
