@@ -13,6 +13,9 @@
 		1445CDAB1EFB73FE002BFC99 /* Fuck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1445CDA91EFB73FE002BFC99 /* Fuck.xcdatamodeld */; };
 		1445CDAD1EFB73FE002BFC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1445CDAC1EFB73FE002BFC99 /* Assets.xcassets */; };
 		1445CDB01EFB73FE002BFC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1445CDAE1EFB73FE002BFC99 /* LaunchScreen.storyboard */; };
+		1445CDBA1EFC9DE5002BFC99 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 1445CDB71EFC9DE5002BFC99 /* Cross.png */; };
+		1445CDBB1EFC9DE5002BFC99 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 1445CDB81EFC9DE5002BFC99 /* Nought.png */; };
+		1445CDBC1EFC9DE5002BFC99 /* th.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1445CDB91EFC9DE5002BFC99 /* th.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1445CDAC1EFB73FE002BFC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1445CDAF1EFB73FE002BFC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1445CDB11EFB73FE002BFC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1445CDB71EFC9DE5002BFC99 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		1445CDB81EFC9DE5002BFC99 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
+		1445CDB91EFC9DE5002BFC99 /* th.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,9 @@
 			children = (
 				1445CDA11EFB73FE002BFC99 /* Fuck */,
 				1445CDA01EFB73FE002BFC99 /* Products */,
+				1445CDB71EFC9DE5002BFC99 /* Cross.png */,
+				1445CDB81EFC9DE5002BFC99 /* Nought.png */,
+				1445CDB91EFC9DE5002BFC99 /* th.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +103,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Ivon-Mac";
 				TargetAttributes = {
 					1445CD9E1EFB73FE002BFC99 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1445CDB01EFB73FE002BFC99 /* LaunchScreen.storyboard in Resources */,
+				1445CDBB1EFC9DE5002BFC99 /* Nought.png in Resources */,
 				1445CDAD1EFB73FE002BFC99 /* Assets.xcassets in Resources */,
+				1445CDBC1EFC9DE5002BFC99 /* th.jpeg in Resources */,
+				1445CDBA1EFC9DE5002BFC99 /* Cross.png in Resources */,
 				1445CDA81EFB73FE002BFC99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,7 +189,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -184,7 +199,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +244,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +254,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -266,7 +291,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ivon.Fuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -278,7 +304,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ivon.Fuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -301,6 +328,7 @@
 				1445CDB61EFB73FE002BFC99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
